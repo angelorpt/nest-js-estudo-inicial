@@ -1,0 +1,40 @@
+
+###
+
+http://localhost:3000
+
+
+###
+
+http://localhost:3000/tasks
+
+
+###
+
+http://localhost:3000/tasks/2
+
+
+###
+
+POST http://localhost:3000/tasks
+content-type: application/json
+
+{
+  "description": "vue",
+  "done": false,
+  "id": 3
+}
+
+###
+
+PATCH  http://localhost:3000/tasks/2
+content-type: application/json
+
+{
+  "done": true
+}
+
+
+###
+
+DELETE http://localhost:3000/tasks/4
